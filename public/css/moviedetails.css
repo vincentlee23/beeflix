@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin: 0px 15px 50px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.desc{
+    width: 500px;
+}
+
+.episodes{
+    margin-left: 30px;
+    width: 400px;
+    /* background-color: black; */
+}
+
+.photo{
+    width: 300px;
+}
+
+.photo img{
+    width: 265px;
+    height: 378px;
+}
+
+table th, td{
+    border: 1px solid black;
+    padding: 5px 10px;
+    /* border-collapse: collapse; */
+}
+
+/* th, td{
+    background-color: #f0f0f0;
+} */
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 50px;
+}

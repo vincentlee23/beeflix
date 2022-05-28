@@ -1,0 +1,43 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px 0px;
+}
+
+#beelogo{
+    width: 75px;
+    height: 75px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+footer{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: yellow;
+}
